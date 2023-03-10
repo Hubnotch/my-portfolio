@@ -4,7 +4,7 @@ type Props = {}
 
 const Hero = (props: Props) => {
   return (
-    <div>Hero</div>
+    <div className='p-12'>Hero</div>
   )
 }
 export default Hero
