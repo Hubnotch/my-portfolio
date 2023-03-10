@@ -7,3 +7,4 @@ const About = (props: Props) => {
     <div>About</div>
   )
 }
+export default About

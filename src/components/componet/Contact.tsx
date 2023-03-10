@@ -7,3 +7,5 @@ const Contact = (props: Props) => {
     <div>Contact</div>
   )
 }
+
+export default Contact

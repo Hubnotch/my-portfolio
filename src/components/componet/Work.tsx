@@ -7,3 +7,5 @@ const Work = (props: Props) => {
     <div>Work</div>
   )
 }
+
+export default Work

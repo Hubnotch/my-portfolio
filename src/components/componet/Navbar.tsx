@@ -7,3 +7,5 @@ const Navbar = (props: Props) => {
     <div>Navbar</div>
   )
 }
+
+export default Navbar

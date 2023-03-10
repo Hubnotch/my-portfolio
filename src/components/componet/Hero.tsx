@@ -7,3 +7,4 @@ const Hero = (props: Props) => {
     <div>Hero</div>
   )
 }
+export default Hero
