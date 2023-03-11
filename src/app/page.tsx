@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import { Navbar,Contact,Experience,Work,About,Hero} from '@/components/componet'
+import { Navbar,Contact,Experience,Work,About,Hero, SocialLinks} from '@/components/componet'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -14,7 +14,8 @@ export default function Home() {
       <About />
       <Experience />
       <Work />
-      <Contact/>
+      <Contact />
+      <SocialLinks/>
     </main>
   )
 }
