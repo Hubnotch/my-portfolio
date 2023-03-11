@@ -14,7 +14,7 @@ const Navbar = () => {
   ]
   const handleClick = () => { setOpenNavbar(!openNavbar) }
   return (
-    <div className='max-w-5xl mx-auto flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
+    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
       <h1 className="text-5xl">Ekene.</h1>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
