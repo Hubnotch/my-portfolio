@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='py-12 px-12 md:py-28 md:px-14'>
+    <div className='w-full'>
       <h1 className='my-6 font-light text-4xl'>Hello! </h1>
       <h2 className='my-7 font-light md:text-4xl max-w-2xl text-2xl'>
         I&apos;m <span className='font-bold'>Ekene Ugwuanyi</span>, a front-end software engineer focused on building beautiful interfaces & experiences. </h2>
