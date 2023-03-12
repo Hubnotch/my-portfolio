@@ -1,11 +1,9 @@
 import React from 'react'
 
-type Props = {}
 
-const About = (props: Props) => {
+const About = () => {
   return (
     <div id='about' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
-      {/* <Heading title='About' /> */}
       <div className="flex flex-col max-w-screen-lg p-4 mx-auto justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">

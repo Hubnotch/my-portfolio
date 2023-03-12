@@ -61,6 +61,12 @@ const Experience = () => {
       title: 'Github',
       style: 'shadow-gray-400',
     },
+    {
+      id: 9,
+      src: node,
+      title: 'Node JS',
+      style: 'shadow-green-300',
+    },
   ]
   return (
     <div name='experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
