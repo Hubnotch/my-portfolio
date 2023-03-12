@@ -24,7 +24,7 @@ const Contact = (props: Props) => {
               name="email"
               id="email"
               placeholder='Enter your email address'
-              className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
+              className='p-2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none'
             />
             <textarea 
             name="message" 
