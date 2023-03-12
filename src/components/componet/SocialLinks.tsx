@@ -2,9 +2,8 @@ import React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-type Props = {}
 
-const SocialLinks = (props: Props) => {
+const SocialLinks = () => {
   const links = [
     {
       id: 1, 
@@ -44,7 +43,7 @@ const SocialLinks = (props: Props) => {
 
         {links.map(({ id, socialIcon, link, style, download }) => (
         
-          <li key={id} className={'flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] duration-300' + ' ' + style}>
+          <li key={id} className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] duration-300 ${style}`}>
             <a className='flex justify-between items-center w-full text-white' href={link} target='_blank' download={download}>
              {socialIcon}
             </a>
