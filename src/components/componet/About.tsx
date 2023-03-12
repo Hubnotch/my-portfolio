@@ -1,11 +1,10 @@
 import React from 'react'
-import { Heading } from '../util-component'
 
 type Props = {}
 
 const About = (props: Props) => {
   return (
-    <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
+    <div id='about' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
       {/* <Heading title='About' /> */}
       <div className="flex flex-col max-w-screen-lg p-4 mx-auto justify-center w-full h-full">
         <div className="pb-8">

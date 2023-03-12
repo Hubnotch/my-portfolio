@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-full'>
+    <div id='home' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
       <h1 className='my-6 font-light text-4xl'>Hello! </h1>
       <h2 className='my-7 font-light md:text-4xl max-w-2xl text-2xl'>
         I&apos;m <span className='font-bold'>Ekene Ugwuanyi</span>, a front-end software engineer focused on building beautiful interfaces & experiences. </h2>
