@@ -4,7 +4,7 @@ type Props = {}
 
 const Contact = (props: Props) => {
   return (
-    <div name='contact' className='px-4 w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
+    <div name={'contact'} className='px-4 w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
       <div className='flex flex-col justify-center mx-auto max-w-screen-lg h-full'>
         <div className='pb-8'>
           <p className="inline text-4xl font-bold border-b-4 border-gray-500">Contact</p>
@@ -13,6 +13,7 @@ const Contact = (props: Props) => {
         <div className='flex justify-center items-center'>
           <form action="" className='flex flex-col w-full md:w-1/2'>
             <input
+              required
               type="text"
               name="name"
               id="name"
@@ -20,6 +21,7 @@ const Contact = (props: Props) => {
               className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'
             />
             <input
+              required
               type="email"
               name="email"
               id="email"
@@ -27,6 +29,7 @@ const Contact = (props: Props) => {
               className='p-2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none'
             />
             <textarea 
+            required
             name="message" 
             id="message "
             cols={30}
