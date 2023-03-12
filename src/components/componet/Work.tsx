@@ -11,15 +11,18 @@ const Work = (props: Props) => {
   const portfolio = [
     {
       id: 1,
-      src: chatgpt
+      src: chatgpt,
+      link:'https://github.com/Hubnotch/GPT-3-Page'
     },
     {
       id: 2,
-      src: gericht
+      src: gericht,
+      link:'https://github.com/Hubnotch/gericht-restaurant'
     },
     {
       id: 3,
-      src: scorecard
+      src: scorecard,
+      link:'https://github.com/Hubnotch'
     },
   ];
 
@@ -38,17 +41,17 @@ const Work = (props: Props) => {
         </div>
         <div
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
-          {portfolio.map(({ id, src }) => (
+          {portfolio.map(({ id, src,link }) => (
             <div key={id}
               className="shadow-md shadow-gray-500 rounded-lg ">
               <Image
                 className='rounded-lg duration-300 hover:scale-105' src={src} alt="chatgpt" />
               <div
                 className="flex items-center justify-center">
+                {/* <button
+                  className='py-3 w-1/2 px-6 m-4 duration-200 hover:scale-100'>Demo</button> */}
                 <button
-                  className='py-3 w-1/2 px-6 m-4 duration-200 hover:scale-100'>Demo</button>
-                <button
-                  className='py-3 w-1/2 px-6 m-4 duration-200 hover:scale-100'>Code</button>
+                  className='py-3 w-1/2 px-6 m-4 duration-200 hover:scale-100'><a href={link} target="_blank" rel="noopener noreferrer">Code</a></button>
               </div>
             </div>
 
