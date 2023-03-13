@@ -1,22 +1,22 @@
-'use client'
+"use client"
 
-import React, { useState } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
-import {Link} from 'react-scroll'
+import React, { useState } from "react"
+import { FaBars, FaTimes } from "react-icons/fa"
+import {Link} from "react-scroll"
 
 
 const Navbar = () => {
   const [openNavbar, setOpenNavbar] = useState(false)
   const links = [
-    { id: 1, link: 'home' },
-    { id: 2, link: 'about' },
-    { id: 3, link: 'portfolio' },
-    { id: 4, link: 'experience' },
-    { id: 5, link: 'contact' },
+    { id: 1, link: "home" },
+    { id: 2, link: "about" },
+    { id: 3, link: "portfolio" },
+    { id: 4, link: "experience" },
+    { id: 5, link: "contact" },
   ]
   const handleClick = () => { setOpenNavbar(!openNavbar) }
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <h1 className="text-5xl">Ekene.</h1>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
