@@ -44,18 +44,3 @@ const Contact = () => {
 
 export default Contact
 
- 
-  // return (
-  //   <div className="lg:flex">
-  //     <ul>
-  //       {links.map(({ id, socialIcon, link, style, download }) => (
-  //         <li key={id} className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] duration-300 ${style}`}>
-  //           <a className="flex justify-between items-center w-full text-white" href={link} target="_blank" download={download}>
-  //            {socialIcon}
-  //           </a>
-  //         </li>
-  //       ))}
-
-  //     </ul>
-  //   </div>
-  // )
